@@ -83,6 +83,26 @@ namespace oyuncak2.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_box_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-box-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_box_642 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-box-642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_employees_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-employees-64", resourceCulture);
@@ -113,6 +133,66 @@ namespace oyuncak2.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_hotline_501 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-hotline-501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_hotline_502 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-hotline-502", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_male_female_user_group_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-male-female-user-group-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_male_female_user_group_961 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-male-female-user-group-961", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_personal_assistant_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-personal-assistant-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_personal_assistant_641 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-personal-assistant-641", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_plush_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-plush-96", resourceCulture);
@@ -126,6 +206,26 @@ namespace oyuncak2.Properties {
         internal static System.Drawing.Bitmap icons8_purchase_order_40 {
             get {
                 object obj = ResourceManager.GetObject("icons8-purchase-order-40", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_purchase_order_401 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-purchase-order-401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_purchase_order_402 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-purchase-order-402", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

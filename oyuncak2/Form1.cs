@@ -23,5 +23,20 @@ namespace oyuncak2
             this.Hide();
             urn.ShowDialog();
         }
+
+        private void yARDIMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mÜŞTERİLERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            müsterilercs müsteri = new müsterilercs();
+            this.Hide();
+            müsteri.ShowDialog();
+            this.Close();
+
+
+        }
     }
 }

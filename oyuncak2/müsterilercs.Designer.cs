@@ -1,6 +1,6 @@
 ﻿namespace oyuncak2
 {
-    partial class ürünler
+    partial class müsterilercs
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.fiyat = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.adet = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.model = new System.Windows.Forms.TextBox();
             this.ürnad = new System.Windows.Forms.TextBox();
             this.marka = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -45,64 +40,31 @@
             this.label2 = new System.Windows.Forms.Label();
             this.id = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.adet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(488, 428);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.fiyat);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.adet);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.model);
-            this.groupBox1.Controls.Add(this.ürnad);
-            this.groupBox1.Controls.Add(this.marka);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.id);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(520, 21);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(347, 418);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ÜRÜN EKLE";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Arial Unicode MS", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(231, 324);
+            this.button3.Location = new System.Drawing.Point(237, 384);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 52);
+            this.button3.Size = new System.Drawing.Size(78, 33);
             this.button3.TabIndex = 14;
             this.button3.Text = "Güncelle";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Arial Unicode MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(133, 315);
+            this.button2.Location = new System.Drawing.Point(133, 371);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(76, 67);
+            this.button2.Size = new System.Drawing.Size(76, 46);
             this.button2.TabIndex = 13;
             this.button2.Text = "SİL";
             this.button2.UseVisualStyleBackColor = true;
@@ -111,140 +73,179 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Unicode MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(34, 324);
+            this.button1.Location = new System.Drawing.Point(27, 384);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 52);
+            this.button1.Size = new System.Drawing.Size(72, 33);
             this.button1.TabIndex = 12;
             this.button1.Text = "Kaydet";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // fiyat
-            // 
-            this.fiyat.Location = new System.Drawing.Point(143, 265);
-            this.fiyat.Name = "fiyat";
-            this.fiyat.Size = new System.Drawing.Size(101, 22);
-            this.fiyat.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(59, 265);
+            this.label6.Location = new System.Drawing.Point(42, 237);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 24);
+            this.label6.Size = new System.Drawing.Size(82, 24);
             this.label6.TabIndex = 10;
-            this.label6.Text = "FİYAT :";
-            // 
-            // adet
-            // 
-            this.adet.Location = new System.Drawing.Point(143, 217);
-            this.adet.Name = "adet";
-            this.adet.Size = new System.Drawing.Size(100, 22);
-            this.adet.TabIndex = 9;
+            this.label6.Text = "ADRES :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(59, 215);
+            this.label5.Location = new System.Drawing.Point(65, 197);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 24);
+            this.label5.Size = new System.Drawing.Size(61, 24);
             this.label5.TabIndex = 8;
-            this.label5.Text = "ADET :";
-            // 
-            // model
-            // 
-            this.model.Location = new System.Drawing.Point(143, 175);
-            this.model.Name = "model";
-            this.model.Size = new System.Drawing.Size(101, 22);
-            this.model.TabIndex = 7;
+            this.label5.Text = "MAİL :";
             // 
             // ürnad
             // 
-            this.ürnad.Location = new System.Drawing.Point(143, 95);
+            this.ürnad.Location = new System.Drawing.Point(142, 80);
             this.ürnad.Name = "ürnad";
-            this.ürnad.Size = new System.Drawing.Size(101, 22);
+            this.ürnad.Size = new System.Drawing.Size(125, 22);
             this.ürnad.TabIndex = 6;
             // 
             // marka
             // 
-            this.marka.Location = new System.Drawing.Point(143, 134);
+            this.marka.Location = new System.Drawing.Point(143, 118);
             this.marka.Name = "marka";
-            this.marka.Size = new System.Drawing.Size(101, 22);
+            this.marka.Size = new System.Drawing.Size(124, 22);
             this.marka.TabIndex = 5;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(18, 92);
+            this.label4.Location = new System.Drawing.Point(81, 78);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 24);
+            this.label4.Size = new System.Drawing.Size(50, 24);
             this.label4.TabIndex = 4;
-            this.label4.Text = "ÜRÜN ADI : ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.Text = "AD : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(43, 131);
+            this.label3.Location = new System.Drawing.Point(43, 115);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 24);
+            this.label3.Size = new System.Drawing.Size(83, 24);
             this.label3.TabIndex = 3;
-            this.label3.Text = "MARKA :";
+            this.label3.Text = "SOYAD :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Unicode MS", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(43, 173);
+            this.label2.Location = new System.Drawing.Point(42, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 24);
+            this.label2.Size = new System.Drawing.Size(85, 24);
             this.label2.TabIndex = 2;
-            this.label2.Text = "MODEL :";
+            this.label2.Text = "TEL NO :";
             // 
             // id
             // 
-            this.id.Location = new System.Drawing.Point(143, 56);
+            this.id.Location = new System.Drawing.Point(142, 36);
             this.id.Name = "id";
             this.id.Size = new System.Drawing.Size(101, 22);
             this.id.TabIndex = 1;
+            this.id.TextChanged += new System.EventHandler(this.id_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Unicode MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(80, 56);
+            this.label1.Location = new System.Drawing.Point(80, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID :";
             // 
-            // ürünler
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.maskedTextBox1);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.ürnad);
+            this.groupBox1.Controls.Add(this.marka);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.id);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(581, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(339, 440);
+            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ÜRÜN EKLE";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(549, 440);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(143, 160);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(124, 22);
+            this.maskedTextBox1.TabIndex = 15;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(142, 200);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(125, 22);
+            this.textBox1.TabIndex = 16;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(143, 237);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(124, 70);
+            this.richTextBox1.TabIndex = 17;
+            this.richTextBox1.Text = "";
+            // 
+            // müsterilercs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(963, 473);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "ürünler";
-            this.Text = "ürünler";
-            this.Load += new System.EventHandler(this.ürünler_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Name = "müsterilercs";
+            this.Text = "müsterilercs";
+            this.Load += new System.EventHandler(this.müsterilercs_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.adet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox ürnad;
         private System.Windows.Forms.TextBox marka;
         private System.Windows.Forms.Label label4;
@@ -252,13 +253,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox id;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox fiyat;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.NumericUpDown adet;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox model;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
